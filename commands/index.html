@@ -4,27 +4,82 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Stream Commands</title>
-  <style>
-    body {
-      margin: 0;
-      background: #111;
-      color: white;
-      font-family: Arial, sans-serif;
-      display: grid;
-      place-items: center;
-      min-height: 100vh;
-      padding: 24px;
-      box-sizing: border-box;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div>Test!!!</div>
+  <main>
+    <header>
+      <h1>Stream Commands</h1>
+      <p class="intro">Quick reference for chat commands available during the stream.</p>
+    </header>
+
+    <div class="sections">
+      <section aria-labelledby="general-clips">
+        <div class="section-heading">
+          <h2 id="general-clips">General Clips</h2>
+          <span class="tag">Clips</span>
+        </div>
+        <div class="command-list">
+          <article class="command">
+            <div><code>!clip</code></div>
+            <p>Use this to create a clip of the last 30 seconds!</p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="gambling">
+        <div class="section-heading">
+          <h2 id="gambling">Gambling</h2>
+          <span class="tag warning">Wingletz</span>
+        </div>
+        <div class="command-list">
+          <article class="command">
+            <div><code>!addwingletz &lt;username&gt; &lt;amount&gt;</code></div>
+            <p>
+              Adds or removes wingletz to/from a user.
+              <span class="example">Example: <code>!addwingletz Argon014 100</code></span>
+              <span class="example">To remove wingletz, use a negative number as the amount.</span>
+            </p>
+          </article>
+
+          <article class="command">
+            <div><code>!wingletz</code></div>
+            <p>Displays your current number of wingletz.</p>
+          </article>
+
+          <article class="command">
+            <div><code>!claim</code></div>
+            <p>Every 12 hours you can claim 250 free wingletz on me. I am extremely generous, I know.</p>
+          </article>
+
+          <article class="command">
+            <div><code>!gamble &lt;amount&gt;</code></div>
+            <p>
+              Gamble your wingletz in a 50/50 win chance! Some say rigged, I say probably not :)
+              <span class="example">Example: <code>!gamble 100</code></span>
+            </p>
+          </article>
+
+          <article class="command">
+            <div><code>!gamble winloss</code></div>
+            <p>Check your current wins/losses for your gambling addiction.</p>
+          </article>
+
+          <article class="command">
+            <div><code>!slots &lt;amount&gt;</code></div>
+            <p>
+              Gamble your wingletz with higher risk and higher potential rewards!
+              <span class="example">Example: <code>!slots 100</code></span>
+            </p>
+          </article>
+
+          <article class="command">
+            <div><code>!slots winloss</code></div>
+            <p>Check your current wins/losses for your slots addiction.</p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
