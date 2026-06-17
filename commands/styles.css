@@ -27,9 +27,9 @@ body {
 }
 
 main {
-  width: min(1040px, 100%);
+  width: min(1280px, 100%);
   margin: 0 auto;
-  padding: 40px 18px;
+  padding: 40px 24px;
 }
 
 header {
@@ -105,7 +105,7 @@ h2 {
 
 .command {
   display: grid;
-  grid-template-columns: minmax(190px, 260px) 1fr;
+  grid-template-columns: minmax(360px, 460px) 1fr;
   gap: 18px;
   padding: 18px 20px;
   border-bottom: 1px solid var(--border);
@@ -113,6 +113,34 @@ h2 {
 
 .command:last-child {
   border-bottom: 0;
+}
+
+.command-name {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+.command-badge {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-height: 26px;
+  width: fit-content;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  padding: 3px 8px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.command-badge.mod-only {
+  color: #f8dce1;
+  background: #5a1e2d;
+  border-color: #a9475d;
 }
 
 code {
@@ -128,6 +156,12 @@ code {
   font-size: 0.95rem;
   font-weight: 800;
   line-height: 1.35;
+}
+
+section[aria-labelledby="gambling"] .command-name > code,
+section[aria-labelledby="gambling"] .command > div > code {
+  color: #171003;
+  background: var(--accent-2);
 }
 
 .command p {
@@ -166,5 +200,9 @@ code {
   .command {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+
+  .command-name {
+    flex-wrap: wrap;
   }
 }
