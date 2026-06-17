@@ -14,10 +14,10 @@
     </header>
 
     <div class="sections">
-      <section aria-labelledby="general">
+      <section aria-labelledby="general-clips">
         <div class="section-heading">
-          <h2 id="general">General</h2>
-          <span class="tag">General</span>
+          <h2 id="general-clips">General Clips</h2>
+          <span class="tag">Clips</span>
         </div>
         <div class="command-list">
           <article class="command">
