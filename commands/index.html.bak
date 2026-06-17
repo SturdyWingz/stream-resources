@@ -14,15 +14,19 @@
     </header>
 
     <div class="sections">
-      <section aria-labelledby="general-clips">
+      <section aria-labelledby="general">
         <div class="section-heading">
-          <h2 id="general-clips">General Clips</h2>
-          <span class="tag">Clips</span>
+          <h2 id="general">General</h2>
+          <span class="tag">General</span>
         </div>
         <div class="command-list">
           <article class="command">
             <div><code>!clip</code></div>
-            <p>Use this to create a clip of the last 30 seconds!</p>
+            <p>Use this to create a clip of the last 30 seconds and have it save to the twitch channel!</p>
+          </article>
+		  <article class="command">
+            <div><code>!commands</code></div>
+            <p>If you're here... you probably don't need this one 🙂</p>
           </article>
         </div>
       </section>
@@ -34,7 +38,10 @@
         </div>
         <div class="command-list">
           <article class="command">
-            <div><code>!addwingletz &lt;username&gt; &lt;amount&gt;</code></div>
+            <div class="command-name">
+              <code>!addwingletz &lt;username&gt; &lt;amount&gt;</code>
+              <span class="command-badge mod-only">Mod only</span>
+            </div>
             <p>
               Adds or removes wingletz to/from a user.
               <span class="example">Example: <code>!addwingletz Argon014 100</code></span>
