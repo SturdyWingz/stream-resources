@@ -22,7 +22,7 @@
         <div class="command-list">
           <article class="command">
             <div><code>!clip</code></div>
-            <p>Use this to create a clip of the last 30 seconds and have it save to the twitch channel!</p>
+            <p>Use this to save a clip of the last 30 seconds and have it save to the twitch channel!</p>
           </article>
 		  <article class="command">
             <div><code>!commands</code></div>
@@ -57,6 +57,17 @@
           <article class="command">
             <div><code>!claim</code></div>
             <p>Every 12 hours you can claim 250 free wingletz on me. I am extremely generous, I know.</p>
+          </article>
+		  
+		  <article class="command">
+            <div class="command-name">
+              <code>!giftwingletz &lt;username&gt; &lt;amount&gt;</code>
+            </div>
+            <p>
+              Feeling generous? Gift wingletz to another twitch user!
+              <span class="example">Example: <code>!giftwingletz EclipseMoon2009 100</code></span>
+              <span class="example">To remove wingletz, use a negative number as the amount.</span>
+            </p>
           </article>
 
           <article class="command">
