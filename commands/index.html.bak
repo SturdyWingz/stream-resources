@@ -28,6 +28,10 @@
             <div><code>!commands</code></div>
             <p>If you're here... you probably don't need this one 🙂</p>
           </article>
+		  <article class="command">
+            <div><code>!discord</code></div>
+            <p>Post the discord link in chat</p>
+          </article>
         </div>
       </section>
 
@@ -64,9 +68,8 @@
               <code>!giftwingletz &lt;username&gt; &lt;amount&gt;</code>
             </div>
             <p>
-              Feeling generous? Gift wingletz to another twitch user!
+              Feeling generous? Gift some of your wingletz to another twitch user!
               <span class="example">Example: <code>!giftwingletz EclipseMoon2009 100</code></span>
-              <span class="example">To remove wingletz, use a negative number as the amount.</span>
             </p>
           </article>
 
